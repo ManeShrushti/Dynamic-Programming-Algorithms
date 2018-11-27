@@ -1,6 +1,6 @@
 import sys 
   
-def MatrixChainOrder(p, n): 
+def MatrixChain(p, n): 
     
     m = [[0 for x in range(n)] for x in range(n)] 
   
@@ -25,5 +25,5 @@ if __name__=='__main__':
 	strings=string.split(',')
 	for i in strings:
 		array.append(int(i))
-	ans=MatrixChainOrder(arr,len(arr))
+	ans=MatrixChain(arr,len(arr))
 	print("Minimum no of multiplication: %d" %ans)
